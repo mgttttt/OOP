@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>HackGames</Title>
+    <Authors>Gavrilenko Michail</Authors>
+    <PackageId>HackGames</PackageId>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\gavri\source\repos\HackingGame\solution\x64\EngineCoreCpp64.dll">
+      <Pack>true</Pack>
+      <PackagePath>runtimes\win-x64\native</PackagePath>
+    </None>
+    <None Include="C:\Users\gavri\source\repos\HackingGame\solution\x86\EngineCoreCpp32.dll">
+      <Pack>true</Pack>
+      <PackagePath>runtimes\win-x86\native</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
